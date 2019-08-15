@@ -15,10 +15,10 @@
 
 - Configure your hidden service.
     + Go to the Tor browser directory.
-    + Open the "torrc" file in an editor. (Probably located in `Browser/TorBrowser/Data/Tor` directory)
+    + Open the "torrc" file in an editor. (Probably located in `/etc/tor/torrc` directory)
     + Add the following lines to the file
     ```
-    HiddenServiceDir /any/path/where/you/want/config/to/be/stored
+    HiddenServiceDir /var/lib/tor/hidden_service/
     HiddenServicePort 80 127.0.0.1:5000
     ```
     + Save and close the file.
@@ -43,7 +43,7 @@ $ python run.py
 
 - Copy the url generated in the `hostname` file
 ```sh
-$ cat /path/to/config/directory/hostname
+$ cat /var/lib/tor/hidden_service/hostname
 >>> some-obfuscated-url.onion
 ```
 
