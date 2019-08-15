@@ -11,10 +11,10 @@
 
 ## Instructions
 
-- Download Tor browser from the official site ([link](https://www.torproject.org/download/download))
+- Download Tor using the following instructions: ([link](https://2019.www.torproject.org/docs/debian.html.en))
 
 - Configure your hidden service.
-    + Go to the Tor browser directory.
+    + Go to the tor directory.
     + Open the "torrc" file in an editor. (Probably located in `/etc/tor/torrc` directory)
     + Add the following lines to the file
     ```
