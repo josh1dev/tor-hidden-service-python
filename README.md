@@ -31,7 +31,7 @@ $ cd tor-hidden-service
 
 - Install the pypi requirements
 ```sh
-$ pip -r requirements.txt
+$ pip install -r requirements.txt
 ```
 
 - Run the server
